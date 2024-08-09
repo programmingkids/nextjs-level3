@@ -1,0 +1,13 @@
+{
+  "page": {
+    "home": "Home",
+    "home_title": "This is Home",
+    "hello": "Hello",
+    "hello_title": "This is Hello",
+    "about": "About",
+    "about_title": "This is About",
+    "profile": "Profile",
+    "profile_title": "This is Profile",
+    "count_up" : "Count Up"
+  }
+}

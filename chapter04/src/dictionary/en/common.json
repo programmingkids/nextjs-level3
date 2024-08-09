@@ -1,0 +1,11 @@
+{
+  "common": {
+    "app_title": "NextJS App",
+    "footer_message1":"We Love NextJS",
+    "footer_message2":"Since 2020",
+    "not_found_message1": "NotFound",
+    "not_found_message2": "Page does not exists",
+    "not_found_message3": "Check your url and access again"
+  }
+}
+

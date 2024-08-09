@@ -1,0 +1,13 @@
+{
+  "page": {
+    "home": "ホーム",
+    "home_title": "これはホーム",
+    "hello": "ハロー",
+    "hello_title": "これはハロー",
+    "about": "アバウト",
+    "about_title": "これはアバウト",
+    "profile": "プロフィール",
+    "profile_title": "これはプロフィール",
+    "count_up" : "カウントアップ"
+  }
+}
