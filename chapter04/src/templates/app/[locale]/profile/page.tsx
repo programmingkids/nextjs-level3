@@ -15,10 +15,16 @@ export default function Page() {
       <Link href="/" className="text-link">
         {t('home')}
       </Link>
+      <hr className="my-4 border-1 border-sky-400" />
       <div>
         <div>{count}</div>
-        <div>
-          <button onClick={() => setCount((c) => c + 1)}>up</button>
+        <div className="mt-4">
+          <button
+            onClick={() => setCount((c) => c + 1)}
+            className="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded"
+          >
+            {t('count_up')}
+          </button>
         </div>
       </div>
     </div>

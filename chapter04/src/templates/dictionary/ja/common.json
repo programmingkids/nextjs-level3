@@ -1,0 +1,10 @@
+{
+  "common": {
+    "app_title": "NextJSアプリ",
+    "footer_message1":"NextJS大好き",
+    "footer_message2":"Since 2020",
+    "not_found_message1": "NotFound",
+    "not_found_message2": "ページが存在しません",
+    "not_found_message3": "URLを確認の上、再度アクセスしてください"
+  }
+}
