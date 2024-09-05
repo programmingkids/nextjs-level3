@@ -27,7 +27,7 @@ export default function Page() {
           onClick={handleClickRed}
           className="bg-rose-500 hover:bg-rose-800 text-white font-bold py-2 px-4 rounded"
         >
-          Read
+          Red
         </button>
       </div>
     </div>
