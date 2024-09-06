@@ -1,27 +1,16 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
-import { Link, usePathname } from '@/components/navigation';
-import { LangSwitcher } from '@/components/langSwitcher';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
-const links = [
-  { title: 'home', href: '/' },
-  { title: 'about', href: '/about' },
-  { title: 'hello', href: '/hello' },
-  { title: 'profile', href: '/profile' },
-];
+const links = [{ title: 'home', href: '/' }];
 
 export const Header = function () {
-  const t = useTranslations('common');
-  const tpage = useTranslations('page');
   const pathName = usePathname();
 
   return (
     <div className="main p-4 bg-blue-300">
-      <h1 className="p-2 text-2xl">{t('app_title')}</h1>
-      <div className="text-end">
-        <LangSwitcher />
-      </div>
+      <h1 className="p-2 text-2xl"></h1>
       <div className="flex justify-around flex-wrap p-2">
         {links.map((e, i) => (
           <Link
@@ -33,7 +22,7 @@ export const Header = function () {
                 : 'text-blue-600 underline hover:text-red-600'
             }
           >
-            {tpage(e.title)}
+            {e.title}
           </Link>
         ))}
       </div>
